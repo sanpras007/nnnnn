@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/study_plannerfrontend/static/css/main.087b4ce9.css",
+    "main.js": "/study_plannerfrontend/static/js/main.b511be6c.js",
+    "static/media/giphy.gif": "/study_plannerfrontend/static/media/giphy.4444a0aa9bbbede681b6.gif",
+    "index.html": "/study_plannerfrontend/index.html",
+    "main.087b4ce9.css.map": "/study_plannerfrontend/static/css/main.087b4ce9.css.map",
+    "main.b511be6c.js.map": "/study_plannerfrontend/static/js/main.b511be6c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.087b4ce9.css",
+    "static/js/main.b511be6c.js"
+  ]
+}
