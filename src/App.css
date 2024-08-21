@@ -1,0 +1,91 @@
+/* Background GIF */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('giphy.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Centered Container */
+.app-container {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.app-title {
+  font-size: 3em;
+  color: #333;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Planner Container */
+.planner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Lists Container */
+.lists-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  gap: 20px; /* Adds spacing between columns */
+}
+
+/* General List Styles */
+.subject-list, .completed-list, .random-subject, .add-subject {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px; /* Adjust width for smaller elements */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* List Items */
+.subject-list ul, .completed-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.subject-list li, .completed-list li {
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.subject-list li:last-child, .completed-list li:last-child {
+  border-bottom: none;
+}
+
+/* Buttons */
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+button:active {
+  background-color: #004494;
+  transform: scale(0.95); /* Slightly shrinks the button on click */
+}
