@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /* Background GIF */
+=======
+>>>>>>> a91474e (forst)
 body {
   margin: 0;
   padding: 0;
@@ -7,18 +10,29 @@ body {
   background-size: cover;
 }
 
+<<<<<<< HEAD
 /* Centered Container */
+=======
+>>>>>>> a91474e (forst)
 .app-container {
   text-align: center;
   max-width: 800px;
   margin: auto;
   padding: 20px;
+<<<<<<< HEAD
   background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+=======
+  background: rgba(255, 255, 255, 0.8); 
+>>>>>>> a91474e (forst)
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+<<<<<<< HEAD
 /* Title */
+=======
+
+>>>>>>> a91474e (forst)
 .app-title {
   font-size: 3em;
   color: #333;
@@ -38,21 +52,33 @@ body {
   display: flex;
   justify-content: space-around;
   width: 100%;
+<<<<<<< HEAD
   gap: 20px; /* Adds spacing between columns */
 }
 
 /* General List Styles */
+=======
+  gap: 20px;
+}
+>>>>>>> a91474e (forst)
 .subject-list, .completed-list, .random-subject, .add-subject {
   background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
   width: 100%;
+<<<<<<< HEAD
   max-width: 400px; /* Adjust width for smaller elements */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
 }
 
 /* List Items */
+=======
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+>>>>>>> a91474e (forst)
 .subject-list ul, .completed-list ul {
   list-style-type: none;
   padding: 0;
@@ -68,7 +94,11 @@ body {
   border-bottom: none;
 }
 
+<<<<<<< HEAD
 /* Buttons */
+=======
+
+>>>>>>> a91474e (forst)
 button {
   padding: 12px 24px;
   border: none;
@@ -82,10 +112,18 @@ button {
 
 button:hover {
   background-color: #0056b3;
+<<<<<<< HEAD
   transform: scale(1.05); /* Slightly enlarges the button on hover */
+=======
+  transform: scale(1.05); 
+>>>>>>> a91474e (forst)
 }
 
 button:active {
   background-color: #004494;
+<<<<<<< HEAD
   transform: scale(0.95); /* Slightly shrinks the button on click */
+=======
+  transform: scale(0.95);
+>>>>>>> a91474e (forst)
 }
